@@ -1,0 +1,21 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.f-main-container {
+    padding-top: 80px;
+    min-height: 500px;
+    transition: all 0.2s;
+    position: relative;
+
+    @include from($x-large) {
+        padding-top: 56px;
+    }
+
+    &.f-top-menu-active {
+        padding-top: 112px;
+
+        @include from($x-large) {
+            padding-top: 56px;
+        }
+    }
+}

@@ -1,0 +1,155 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.f-header {
+    width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    position: relative;
+    background-color: $black-100;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        @include from($x-large) {
+            width: 25%;
+        }
+
+        &__image {
+            margin-right: 5px;
+        }
+
+        &__title {
+            @include hSizes(small);
+            color: white;
+        }
+    }
+
+    &__search {
+        display: none;
+
+        @include from($x-large) {
+            display: flex;
+            width: 25%;
+            color: white;
+        }
+
+        i {
+            display: block;
+            font-size: 18px;
+            margin-right: 5px;
+        }
+
+        &__input {
+            width: 200px;
+            border: none;
+            background-color: transparent;
+            @include bodySizes(medium);
+            color: white;
+
+            &::placeholder {
+                color: white;
+            }
+        }
+    }
+
+    &__nav {
+        display: none;
+
+        @include from($x-large) {
+            min-width: 40%;
+            width: 40%;
+            margin-right: 50px;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                display: flex;
+                align-items: center;
+                position: relative;
+
+                @include bodySizes(medium);
+                text-decoration: none;
+                color: white;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: -5px;
+                    width: 0;
+                    height: 2px;
+                    background-color: white;
+                }
+
+                &:hover::after,
+                &.active::after {
+                    transition: all 0.2s;
+                    width: 100%;
+                }
+
+                i,
+                img {
+                    font-size: 20px;
+                    margin-right: 10px;
+
+                    &:nth-child(2) {
+                        margin-right: 0;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__user-info {
+        display: none;
+
+        @include from($x-large) {
+            min-width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        &__image {
+            background-color: $gray-300;
+            min-width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        &__name {
+            @include bodySizes(medium);
+            color: white;
+            margin-right: 10px;
+        }
+
+        i {
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+    &__nav-mobile {
+        @include from($x-large) {
+            display: none;
+        }
+
+        &__nav-button {
+            display: block;
+            background-color: transparent;
+            border: none;
+
+            font-size: 25px;
+            color: white;
+        }
+    }
+}

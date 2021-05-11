@@ -1,0 +1,37 @@
+//blue
+$blue-100: #26b4ff;
+
+//black
+$black-100: #2f3337;
+$black-200: #424242;
+
+//gray
+$gray-100: #9a9a9a;
+$gray-200: #cbcedd;
+$gray-300: #e5e7eb;
+
+/*Medias Querys*/
+$small: 600px;
+$semi-small: 695px;
+$medium: 761px;
+$large: 960px;
+$x-large: 1023px;
+$xx-large: 1200px;
+$xxx-large: 1600px;
+
+// error colors
+$red-100: #da1e32;
+
+/*Fonts*/
+$roboto-regular: "Roboto-Regular";
+$roboto-bold: "Roboto-Bold";
+$roboto-medium: "Roboto-Medium";
+
+/* Z-index */
+$z-back: -1;
+$z-none: 0;
+$z-floor: 1;
+$z-medium: 10;
+$z-medium-up: 30;
+$z-up: 50;
+$z-top: 100;
