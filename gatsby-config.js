@@ -8,7 +8,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        name: `Hello Prevalentware`,
+        short_name: `Hello Prevalentware`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        display: `standalone`,
+        theme_color: `#a2466c`,
+        icon: "src/assets/images/logo.svg",
       },
     },
   ],
