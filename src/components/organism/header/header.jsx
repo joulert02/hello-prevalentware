@@ -1,6 +1,6 @@
 import React from 'react'
-import logoImg from '../../../assets/images/logo.svg'
-import workImg from '../../../assets/images/empleo.svg'
+import logoImg from '../../../assets/images/logo.png'
+import workImg from '../../../assets/images/empleo.png'
 import './header.scss'
 
 const navOptions = [
