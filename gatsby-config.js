@@ -13,7 +13,6 @@ module.exports = {
         background_color: `#f7f0eb`,
         display: `standalone`,
         theme_color: `#a2466c`,
-        icon: "src/assets/images/logo.svg",
       },
     },
     {
