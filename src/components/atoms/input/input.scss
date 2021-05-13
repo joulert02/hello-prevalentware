@@ -1,0 +1,43 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.f-input {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  position: relative;
+  user-select: none;
+
+  span {
+    display: block;
+    margin-bottom: 10px;
+    @include bodySizes(small);
+    color: $gray-dark;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $gray-200;
+    padding-left: 5px;
+    
+    @include bodySizes(medium);
+    font-family: $roboto-medium;
+    color: black;
+  }
+
+  p {
+    color: $red-100;
+    @include bodySizes(small);
+    margin: 2px;
+    position: relative;
+  }
+
+  &--disable {
+    @extend .f-input;
+
+    .f-btn-show-password {
+      color: #d9d9d9;
+    }
+  }
+}

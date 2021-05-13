@@ -6,24 +6,24 @@ import './header.scss'
 const navOptions = [
     {
         name: "Administración",
-        url: "administracion",
+        url: "/administracion/aprobacion-de-empresas/",
         icon: <i className="fas fa-cogs"></i>
     },
     {
         name: "Empleo",
-        url: "administracion",
+        url: "/administracion/aprobacion-de-empresas/",
         icon: <img src={workImg} alt="wi" />,
         subnav: [
             {
                 name: "Administración",
-                url: "administracion",
+                url: "/administracion/aprobacion-de-empresas/",
                 icon: <i className="fas fa-cogs"></i>
             },
         ]
     },
     {
         name: "Mi CV",
-        url: "administracion",
+        url: "/administracion/aprobacion-de-empresas/",
         icon: <i className="fas fa-clipboard-list"></i>
     },
 ]

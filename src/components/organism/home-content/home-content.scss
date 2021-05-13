@@ -1,0 +1,27 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.f-home {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    background-color: $gray-400;
+
+    &__container {
+        @include container(large);
+        padding-top: 80px;
+        padding-bottom: 100px;
+
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 380px));
+        row-gap: 80px;
+
+        @include from($x-large) {
+            grid-template-columns: repeat(auto-fill, minmax(450px, 550px));
+        }
+
+        .f-section-card {
+            margin: 0 auto;
+        }
+    }
+}
