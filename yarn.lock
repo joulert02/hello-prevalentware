@@ -4938,13 +4938,6 @@ gatsby-plugin-page-creator@^3.5.0:
     globby "^11.0.3"
     lodash "^4.17.21"
 
-gatsby-plugin-portal@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-portal/-/gatsby-plugin-portal-1.0.7.tgz#c2ff2cb2bbec27e0ae9ab610857f603197189dc0"
-  integrity sha512-Drb2zj9qOVbt+/miINhyT7IvUaY+z/sxFT+0+p0yX4theKSVJgtu0YisA+DFlCmNl+KE6VjbqANZ0HUh6aWVMA==
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-
 gatsby-plugin-sass@^4.4.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-4.5.0.tgz#4e8a9a0c9a334cc3605183b742272868f54776e6"
