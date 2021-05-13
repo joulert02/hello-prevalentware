@@ -13,7 +13,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         display: `standalone`,
         theme_color: `#a2466c`,
-        icon: `favicon.svg`
+        icon: `src/assets/images/icon.png`
       },
     },
   ],
