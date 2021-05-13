@@ -3,7 +3,7 @@ import Layout from '../../components/organism/layout/layout'
 import CompanyApproval from '../../components/organism/company-approval/company-approval'
 import "../../styles/index.scss"
 
-const IndexPage = () => {
+const CompanyApprovalPage = () => {
   return (
     <Layout>
       <CompanyApproval />
@@ -11,4 +11,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default CompanyApprovalPage
