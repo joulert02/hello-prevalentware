@@ -16,12 +16,5 @@ module.exports = {
         icon: `src/assets/images/logo.svg`
       },
     },
-    {
-      resolve: `gatsby-plugin-portal`,
-      options: {
-        key: 'modal-root',
-        id: 'modal-root',
-      },
-    },
   ],
 };
