@@ -1,6 +1,6 @@
 import React from 'react'
-import { ReactComponent as logoImg } from '../../../assets/images/logo.svg'
-import { ReactComponent as workImg } from '../../../assets/images/empleo.svg'
+import logoImg from '../../../assets/images/logo.svg'
+import workImg from '../../../assets/images/empleo.svg'
 import './header.scss'
 
 const navOptions = [
